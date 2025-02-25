@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym & Fitness</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Willkommen im Gym</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Über uns</a></li>
+                <li><a href="#services">Kurse</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Deine Fitness-Reise beginnt hier!</h2>
+        <button onclick="showAlert()">Jetzt Anmelden</button>
+    </section>
+
+    <section id="about">
+        <h2>Über uns</h2>
+        <p>Wir helfen dir, deine Fitnessziele zu erreichen – mit professionellen Trainern und modernem Equipment.</p>
+    </section>
+
+    <section id="services">
+        <h2>Unsere Kurse</h2>
+        <div class="course">
+            <h3>Yoga</h3>
+            <p>Entspannung und Dehnung für Körper und Geist.</p>
+        </div>
+        <div class="course">
+            <h3>HIIT</h3>
+            <p>Intensives Training für maximale Fettverbrennung.</p>
+        </div>
+        <div class="course">
+            <h3>Gewichtheben</h3>
+            <p>Muskelaufbau mit gezieltem Krafttraining.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Kontakt</h2>
+        <form id="contact-form">
+            <input type="text" id="name" placeholder="Dein Name" required>
+            <input type="email" id="email" placeholder="Deine E-Mail" required>
+            <textarea id="message" placeholder="Deine Nachricht" required></textarea>
+            <button type="submit">Absenden</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Gym & Fitness. Alle Rechte vorbehalten.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
